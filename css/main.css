@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 15px;
+  color: #7C6A0A;
+}
+nav p {
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+nav .nav__icons {
+  display: flex;
+  gap: 15px;
+}
+nav .nav__icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  color: #7C6A0A;
+  padding: 70px 45px 0 45px;
+}
+article .impact-section__info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 25px;
+}
+article h1 {
+  font-size: 3em;
+  margin: 0;
+}
+article p {
+  font-size: 1.5rem;
+}
+article button {
+  background: none;
+  border-style: none;
+  width: 12vw;
+  padding: 20px;
+  background-color: #FA9500;
+  border-radius: 35px;
+  color: white;
+  font-size: 1em;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+section .health-care h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .health-care .product-card {
+  width: 12vw;
+  height: auto;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .health-care .product-card img {
+  width: 200px;
+  height: 250px;
+  background-image: cover;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #FA9500;
+  width: 100%;
+  height: 250px;
+}/*# sourceMappingURL=main.css.map */
